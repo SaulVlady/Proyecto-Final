@@ -1,0 +1,1 @@
+const words = ['Index','Lenguaje','JavaScript','Base de Datos','Localhoast','Codigo','Programar','Computadora','Uteg','CSS','HTML','Imagenes','HTML','Padding','Width','Margin','Border','Pagina','Teclado','Monitor','Mouse','Visual Studio Code'];

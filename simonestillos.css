@@ -1,0 +1,96 @@
+body {
+    display: inline-grid;
+    place-items: center;
+    width: 100%;
+    font-family: 'Merriweather', serif;
+    background-color: rgb(0, 0, 0);
+}
+
+.simon {
+    position: relative;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+.buttonContainer {
+    display: inline-grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto;
+    transform: rotate(45deg);
+}
+
+.square {
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.square:active,
+.active {
+    filter: brightness(125%);
+}
+
+.red {
+    background-color: #EE6352;
+}
+
+.blue {
+    background-color: #08B2E3;
+}
+
+.green {
+    background-color: #57A773;
+}
+
+.yellow {
+    background-color: #FFDF64;
+}
+
+#startButton {
+    width: 75px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    font-family: 'Merriweather', serif;
+    cursor: pointer;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #0086fc;
+    padding: 10px;
+}
+
+#startButton:disabled {
+    background-color: #eee;
+}
+
+.title {
+    width: min-content;
+    color: white;
+}
+
+.winner {
+    animation: spin 1s ease-in-out;
+}
+
+@keyframes spin { 
+    100% { transform:rotate(180deg) } }
+
+    h3{
+        margin: 5rem 0;
+        width: 115%;
+        text-align: center;
+        cursor: pointer;
+        font-size: 20px;
+        text-align: center;
+        padding: 5px;
+        width: 350px;
+        height: 40px;
+        border-radius: 10px;
+        background-color: rgb(116, 111, 111);
+    }
+
+    

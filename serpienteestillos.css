@@ -1,0 +1,83 @@
+body {
+    text-align: center;
+    background: rgba(133, 155, 156, 0.253);
+}
+
+.grid {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    border-style: solid;
+    border-radius: 20px;
+    background: rgb(3, 22, 9);
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.content {
+    float: left;
+    width: 20%;
+    padding: 50px;
+}
+
+.snake {
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.apple {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+
+
+button {
+    background: rgb(14, 201, 14);
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: rgb(99, 214, 99);
+}
+
+.score,
+.live {
+    display: block;
+    margin: 10px;
+    padding: 20px;
+    font-size: 26px;
+}
+
+.score {
+    color: rgb(8, 132, 173);
+}
+
+.live {
+    color: rgb(177, 19, 19);
+}
+
+h1{
+    width: 115%;
+    text-align: center;
+    cursor: pointer;
+    font-size: 70px;
+    text-align: center;
+    padding: 7px;
+    width: 250px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+h3{
+    margin: center;
+}
